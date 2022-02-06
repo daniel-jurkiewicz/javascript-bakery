@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Cookie Clicker</title>
+		<link rel="stylesheet" href="style.css" />
+		<script src="index.js" defer></script>
+	</head>
+	<body>
+		<div class="container">
+			<div class="my-bar" id="my-bar">
+				<div class="my-progress" id="my-progress"></div>
+			</div>
+
+			<p>Ilość mąki: <span id="flour-counter">100</span> kg</p>
+			<p>
+				Liczba ulepionych ciastkowych kul:
+				<span id="dough-counter">0</span>
+			</p>
+
+			<button id="dough-button"></button><span id="low-flour"></span>
+			<div class="tray" id="tray"></div>
+			<p>Liczba ulepionych ciastek: <span id="cookie-counter">0</span></p>
+
+			<button id="cookie-button">Włóż ciastko do pieca</button>
+			<p>Liczba ciastek w piecu: <span id="oven-counter">0</span>/9</p>
+
+			<div class="oven" id="oven"></div>
+			<p>Liczba gotowych ciastek: <span id="ready-cookie">0</span></p>
+			<p>Zarobiliśmy: <span id="pln">0</span> PLN</p>
+
+			<button id="flour-button">Kup mąkę</button>
+		</div>
+	</body>
+</html>
